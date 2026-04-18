@@ -1,16 +1,6 @@
 import java.util.Arrays;
 
-/**
- * Representa un item LR(0) de la forma:
- *   [ A -> alpha . beta ]
- *
- * Internamente guarda:
- *   - lado izquierdo (no terminal)
- *   - lado derecho como array de simbolos
- *   - posicion del punto (indice dentro del array derecho)
- *     posicion 0 = punto antes de todo
- *     posicion = length = punto al final
- */
+
 public class Item {
 
     private String izq;           // lado izquierdo (ej: "E")

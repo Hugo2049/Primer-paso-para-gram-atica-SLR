@@ -12,10 +12,7 @@ public class Cerradura {
         this.gramatica = gramatica;
     }
 
-    /**
-     * Calcula la cerradura del conjunto de items dado.
-     * Va imprimiendo el proceso paso a paso.
-     */
+   
     public Set<Item> calcular(List<Item> itemsIniciales) {
         // LinkedHashSet para conservar el orden de insercion al imprimir
         Set<Item> resultado = new LinkedHashSet<>(itemsIniciales);
